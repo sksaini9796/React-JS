@@ -11,5 +11,7 @@ function useCurrencyInfo(currency){
 
     }, [currency])
     
-    return 
+    return data;
 }
+
+export default useCurrencyInfo;
